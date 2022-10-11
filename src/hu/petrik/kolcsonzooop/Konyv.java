@@ -19,6 +19,6 @@ public class Konyv implements Kolcsonozheto {
 
     @Override
     public int meddigKolcsonozheto() {
-        return 14s;
+        return 14;
     }
 }
