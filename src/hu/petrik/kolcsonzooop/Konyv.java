@@ -17,6 +17,18 @@ public class Konyv implements Kolcsonozheto {
         return String.format("%s - %s",this.szerzo, this.cim);
     }
 
+    public String getCim() {
+        return cim;
+    }
+
+    public String getSzerzo() {
+        return szerzo;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
     @Override
     public int meddigKolcsonozheto() {
         return 14;
